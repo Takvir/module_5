@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Profile Card</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #addeff;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-card {
+            width: 350px;
+            height: 450px;
+            padding: 30px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-card h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .profile-card p {
+            margin: 10px 0;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+            font-size: 25px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+        }
+
+        .profile-card .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        
+        .profile-card .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-icon{
+            display: flex;
+            justify-content: space-evenly;
+           font-size: 30px;
+           margin-top: 20px;
+           color: #002c5c;
+           padding: 10px;
+        }
+
+        .button-tab {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .button-tab button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #002c5c;
+            color: white;
+            
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <div >
+            <img src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg" alt="Profile Picture">
+        </div>
+        
+        <h1>Takvir Alam</h1>
+        <p>Web Developer</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:likhon@example.com">likhon@example.com</a></p>
+            <p>Mobile: <a href="tel:+1234567890">+123 456 7890</a></p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vel consequatur fugit aut sint et, ducimus voluptas sit deleniti accusamus suscipit voluptatem, facere mollitia. Quas deleniti eos autem velit suscipit?</p>
+
+        <div class="contact-icon" style=" box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="button-tab">   
+            <button>Hire Me</button>
+            <button>Follow Me</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
